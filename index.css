@@ -3,3 +3,71 @@
   padding: 0;
   box-sizing: 0;
 }
+
+:root {
+  --color1: #373f51;
+  --color2: #d8dbe2;
+  --color3: #61e786;
+  --color4: #d81e5b;
+  --color5: #f19a3e;
+  --color6: #fbfbfb;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./src/fonts/Montserrat/Montserrat-Regular.ttf"), type("truetype");
+}
+
+@font-face {
+  font-family: Robotto;
+  src: url("./src/fonts/RobotoCondensed/RobotoCondensed-Regular.ttf"), type("truetype");
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: Montserrat;
+}
+
+h1 {
+  font-size: 5.61rem;
+}
+
+h2 {
+  font-size: 4.209rem;
+}
+
+h3 {
+  font-size: 3.157rem;
+}
+
+h4 {
+  font-size: 2.369rem;
+}
+
+h5 {
+  font-size: 1.777rem;
+}
+
+h6 {
+  font-size: 1.333rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.75rem;
+}
+
+body{
+  font-family: Robotto;
+  display: flex;
+  height: 100vh;
+
+  .signup-container{
+    width: 100%;
+  }
+}
