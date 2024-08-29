@@ -84,17 +84,46 @@ body{
     background-position: center 6.25rem;
     background-repeat: no-repeat;
     background-size: cover;
+
+    .text-container{
+      text-align: center;
+  
+      h6{
+        font-weight: 200;
+      }
+  
+      span{
+        color: var(--color5);
+      }
+    }
   }
 
-  .text-container{
-    text-align: center;
-
-    h6{
-      font-weight: 200;
+  .right{
+    background-color: var(--color1);
+    img{
+      height: 6.25rem;
     }
 
-    span{
-      color: var(--color5);
+    form{
+      display: flex;
+      flex-direction: column;
+      padding: 4rem 2rem;
+
+      label{
+        display: none;
+      }
+
+      .input-container{
+        width: 100%;
+        text-align: center;
+
+        input{
+          width: 100%;
+          padding: 1rem 2rem;
+          border-radius: 10px;
+          background-color: var(--color2);
+        }
+      }
     }
   }
 }
