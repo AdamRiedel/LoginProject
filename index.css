@@ -28,6 +28,7 @@ h1,
 h2,
 h3 {
   font-family: Montserrat;
+  font-weight: 400;
 }
 
 h1 {
@@ -68,6 +69,32 @@ body{
   height: 100vh;
 
   .signup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+  }
+
+  .left{
+    gap: 4rem;
+    color: var(--color1);
+    background-color: var(--color2);
+    background-image: url("./src/public/splash-1.png");
+    background-position: center 6.25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-container{
+    text-align: center;
+
+    h6{
+      font-weight: 200;
+    }
+
+    span{
+      color: var(--color5);
+    }
   }
 }
