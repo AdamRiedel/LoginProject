@@ -17,24 +17,39 @@
   <div class="right signup-container">
     <img src="./src/public/logo-2.png" alt="companyname logo">
     <form class="container" method="post" action="#">
-      <div class="input-container">
-        <label for="username">Username</label>
-        <input type="text" name="username" id="username" placeholder="Username">
-      </div>
+      <div class="inputs-container">
+        <div class="text-inputs">
+          <div class="input-container">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Username">
+          </div>
+    
+          <div class="input-container">
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" placeholder="your@email.com">
+          </div>
+    
+          <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password">
+          </div>
+    
+          <div class="input-container">
+            <label for="confirm-password">Confirm password</label>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password">
+          </div>
+        </div>
 
-      <div class="input-container">
-        <label for="email">E-Mail</label>
-        <input type="email" name="email" id="email" placeholder="your@email.com">
-      </div>
-
-      <div class="input-container">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" placeholder="Password">
-      </div>
-
-      <div class="input-container">
-        <label for="confirm-password">Confirm password</label>
-        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password">
+        <div class="checkbox-inputs">
+          <div class="input-container">
+            <input type="checkbox" name="tos" id="tos">
+            <label for="tos"><small><span>*</span>Terms of Service</small></label>
+          </div>
+          <div class="input-container">
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter"><small>Newsletter</small></label>
+          </div>
+        </div>
       </div>
     </form>
   </div>
