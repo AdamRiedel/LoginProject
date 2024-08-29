@@ -116,6 +116,17 @@ body{
       .input-container{
         width: 100%;
         text-align: center;
+        position: relative;
+
+        &::before{
+          content: "*";
+          color: var(--color4);
+          position: absolute;
+          left: 1.5625rem;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 0.8rem;
+        }
 
         input{
           width: 100%;
